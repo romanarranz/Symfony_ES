@@ -48,8 +48,8 @@ bind-address = 0.0.0.0
 
 Añadimos un nuevo usuario con privilegios de administrador que se pueda conectar desde cualquier ip
 
-mysql> CREATE USER ‘roman’@‘%’ IDENTIFIED BY ‘o5WKxJkRXw’;
-mysql> GRANT ALL PRIVILEGES ON *.* TO ‘roman’@‘%’ WITH GRANT OPTION;
+mysql> CREATE USER ‘myuser’@‘%’ IDENTIFIED BY ‘mypass’;
+mysql> GRANT ALL PRIVILEGES ON *.* TO ‘myuser’@‘%’ WITH GRANT OPTION;
 ```
 
 ##PHP5
@@ -107,7 +107,7 @@ $ php bin/symfony_requeriments
 
 Crear e iniciar la aplicación
 ```bash
-$ symfony new lfv
+$ symfony new my_project
 ```
 
 Arrancar el servidor
@@ -120,7 +120,7 @@ Comprobar la configuracion del proyecto accediendo a **http://localhost:8000/con
 Actualizando dependencias con Composer
 
 ```bash
-$ cd lfv
+$ cd my_project
 $ composer update
 ```
 
