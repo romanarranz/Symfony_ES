@@ -5,7 +5,7 @@ Creando Páginas en Symfony
 
 Necesitaremos crear una *ruta* que es la parte que especifíca como queda la URL de entrada al controlador y el propio *controlador*
 
-Accedemos a la carpeta lfv/src/AppBundle y creamos el archivo *LuckyController.php*
+Accedemos a la carpeta my_project/src/AppBundle y creamos el archivo *LuckyController.php*
 
 ```php
 <?php

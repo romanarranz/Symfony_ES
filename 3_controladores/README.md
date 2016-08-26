@@ -418,7 +418,7 @@ $response->headers->set('Content-Type', 'application/json');
 ?>
 ```
 
-También como se menciono en la [entrada 2](https://github.com/romanarranz/LFV/tree/master/tutorial/2_creando_paginas#rutas-y-controladores) podemos devolver diferentes tipos de respuestas:
+También como se menciono en la [entrada 2](https://github.com/romanarranz/Symfony_ES/tree/master/2_creando_paginas#rutas-y-controladores) podemos devolver diferentes tipos de respuestas:
 
 - Para json, [JsonResponse](https://symfony.com/doc/current/components/http_foundation/introduction.html#component-http-foundation-json-response)
 - Para archivos, [BinaryFileResponse](https://symfony.com/doc/current/components/http_foundation/introduction.html#component-http-foundation-serving-files)
